@@ -1,5 +1,5 @@
 {
-  "name": "node-console-colors",
+  "name": "console-colors-node",
   "version": "1.0.0",
   "description": "Node.js console.log ANSI colors",
   "main": "colors.js",
@@ -11,7 +11,8 @@
     "url": "git+https://github.com/ay86/consoleColors.git"
   },
   "keywords": [
-    "console colors"
+    "console colors",
+    "ANSI"
   ],
   "author": "AngusYoung",
   "license": "ISC",
