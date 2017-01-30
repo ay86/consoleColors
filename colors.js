@@ -14,7 +14,7 @@
 		module.exports = factory();
 	}
 	else {
-		root.dateFormat = factory();
+		root.colors = factory();
 	}
 })(this, function () {
 	var aColorMap = {
