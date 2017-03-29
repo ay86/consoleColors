@@ -6,22 +6,22 @@
 
 **PS: 本插件是以污染原生对象为前提生效的，请了解清楚并慎用！**
 
-##原理
+## 原理
 
 通过对 `String` 原型进行改造，将相应的 ANSI 颜色格式插入到文字里面去。
 
 具体可在这里了解 [ANSI 颜色编码](https://en.wikipedia.org/wiki/ANSI_escape_code)
 
-##Usage
+## Usage
 
 ```js
 require('colors');
 console.log('Test'.red.bold.bgYellow);
 ```
 
-##Methods
+## Methods
 
-###字体颜色
+### 字体颜色
 - black   黑色
 - red     红色
 - green   绿色
@@ -32,7 +32,7 @@ console.log('Test'.red.bold.bgYellow);
 - gray    灰色
 - white   白色（无格式）
 
-###背景颜色
+### 背景颜色
 - bgBlack   背景黑
 - bgRed     背景红
 - bgGreen   背景绿
@@ -42,7 +42,7 @@ console.log('Test'.red.bold.bgYellow);
 - bgCyan    背景青
 - bgGray    背景灰
 
-###物殊格式
+### 物殊格式
 - bold  粗体
 - _     下划线
 - inv   调换背景色和字体色
@@ -50,6 +50,8 @@ console.log('Test'.red.bold.bgYellow);
 以上支持链式引用，理论上字体颜色和背景颜色应各只选择一次，比如`.red.green`这样是不科学的使用。
 
 本插件只使用了部分的 ANSI 格式，还有部分因为兼容性和实用性没有考虑纳入，当然你也可以自行修改 `aColorMap` 加入你想要使用的格式并且定义它的方法名。
+
+## Author
 
 &copy; AngusYoung
 
